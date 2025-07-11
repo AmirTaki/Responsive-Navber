@@ -54,5 +54,18 @@ header {
         color: #fff;
         font-size: 1.5rem;
         cursor: pointer;
+        display: none;
+    }
+    .action_btn {
+        background-color: orange;
+        color:#fff;
+        padding: .5rem 1rem;
+        border:none;
+        outline: none;
+        border-radius: 20px;
+        font-size: .8rem;
+        font-weight : bold;
+        cursor: pointer;
     }
 }
+
