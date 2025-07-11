@@ -83,5 +83,8 @@ header {
     .navbar .action_btn {
         display: none;
     }
+    .navbar .toggle_btn {
+        display: block;
+    }
 }
 
