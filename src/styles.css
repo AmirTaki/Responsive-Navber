@@ -78,3 +78,10 @@ header {
     }
 }
 
+@media screen and (max-width : 992px) {
+    .navbar   .links,
+    .navbar .action_btn {
+        display: none;
+    }
+}
+
