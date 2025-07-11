@@ -83,6 +83,7 @@ header {
     position: absolute;
     right: 2rem;
     top: 60px;
+    height: 0;
     width : 300px;
     background: rgba(255, 255, 255, .1);
     backdrop-filter: blur(15px);
@@ -111,12 +112,18 @@ header {
     }
 }
 
+.dropdown_menu.open {
+    height: 240px;
+}
 @media screen and (max-width : 992px) {
     .navbar   .links,
     .navbar .action_btn {
         display: none;
     }
     .navbar .toggle_btn {
+        display: block;
+    }
+    .dropdown_menu {
         display: block;
     }
 }
