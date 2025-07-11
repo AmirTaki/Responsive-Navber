@@ -87,6 +87,13 @@ header {
     backdrop-filter: blur(15px);
     border-radius: 10px; 
     overflow: hidden;
+
+    li {
+        padding: .7rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
 
 @media screen and (max-width : 992px) {
