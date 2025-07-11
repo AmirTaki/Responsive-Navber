@@ -7,4 +7,12 @@
 
 body {
   background-image: url('./img/photo-1485470733090-0aae1788d5af.avif');
+  height: 100vh;
+  background-color: #000;
+  background-size:cover;
+  background-position: center;
+}
+
+li {
+    
 }
