@@ -26,3 +26,8 @@ a{
 a:hover {
     color: orange;
 }
+
+header {
+    position: relative;
+    padding: 0 2rem;
+}
