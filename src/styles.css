@@ -67,5 +67,10 @@ header {
         font-weight : bold;
         cursor: pointer;
     }
+
+    .action_btn:hover {
+        scale: 1.05;
+        color:#fff
+    }
 }
 
