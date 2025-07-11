@@ -66,11 +66,15 @@ header {
         font-size: .8rem;
         font-weight : bold;
         cursor: pointer;
+        transition: scale .2s ease;
     }
 
     .action_btn:hover {
         scale: 1.05;
         color:#fff
+    }
+    .action_btn:active{
+        scale: .95;
     }
 }
 
