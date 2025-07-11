@@ -78,6 +78,17 @@ header {
     }
 }
 
+.dropdown_menu {
+    position: absolute;
+    right: 2rem;
+    top: 60px;
+    width : 300px;
+    background: rgba(255, 255, 255, .1);
+    backdrop-filter: blur(15px);
+    border-radius: 10px; 
+    overflow: hidden;
+}
+
 @media screen and (max-width : 992px) {
     .navbar   .links,
     .navbar .action_btn {
