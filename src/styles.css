@@ -111,12 +111,19 @@ header {
         display: flex;
         justify-content: center;
     }
+    .action_btn:hover {
+        scale: 1.05;
+        color:#fff
+    }
+    .action_btn:active{
+        scale: .95;
+    }
 }
 .open {
     height: 240px !important; 
 }
 
-@media screen and (max-width : 992px) {
+@media (max-width : 992px) {
     .navbar   .links,
     .navbar .action_btn {
         display: none;
@@ -129,3 +136,13 @@ header {
     }
 }
 
+
+
+
+
+@media  (max-width : 576px) {
+    .dropdown_menu{
+        left: 2rem;
+        width: unset;
+    }
+}
